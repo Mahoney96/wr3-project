@@ -1,0 +1,45 @@
+[
+    {
+        "sku": 1,
+        "name": "Snake Ring",
+        "inventory": 2,
+        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
+
+    },
+    {
+        "sku": 2,
+        "name": "Snake Ring",
+        "inventory": 2,
+        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
+
+    },
+    {
+        "sku": 3,
+        "name": "Snake Ring",
+        "inventory": 2,
+        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
+
+    },
+    {
+        "sku": 4,
+        "name": "Snake Ring",
+        "inventory": 2,
+        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
+
+    },
+    {
+        "sku": 5,
+        "name": "Snake Ring",
+        "inventory": 2,
+        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
+
+    },
+    {
+        "sku": 6,
+        "name": "Snake Ring",
+        "inventory": 2,
+        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
+
+    }
+
+]

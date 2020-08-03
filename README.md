@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### MVP
 
-## Available Scripts
+Description: A 1-page, online art gallery, showcasing 9 pieces of art, that are up for sale by an artist. Displays pictures of the 9 pieces, provides a description for each, and lists the price of the artwork. Users can temporarily add items to a cart, and delete items in cart. Also can fill out basic info.
+<br>
 
-In the project directory, you can run:
+Features:
+- Prompt(aka an alert appears when apps starts running), prompting/asking users to fill-in and save a small bio about themselves. Reason: making checking out and sending follow up emails easier.
+    - Included text fields: Name, age, state, boolean of loves ceramics,
+- User can edit text fields in bio.
+- User can delete information in text fields in bio.  
+- User can delete bio.
+- User can add new shop items.
+- User can view current shop items.
+- User can delete shop items. 
+- User can complete shop items.
+- User can move shops items to checkout. 
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### SERVER
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Dependencies:
 
-### `npm test`
+- express
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Endpoints:
+- app.get("api/shopitems")
+- app.post("api/shopitems")
+- app.delete("/api/shopitems/:id")
+- app.put("/api/shopitems/complete/:id")
+- app.put("api/shopitems/edit/:id")
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Structure:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- server/
+    - index.js
+    - controller.js
+    - shopitems.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Client
 
-### `npm run eject`
+Dependencies:
+- axios
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Structure:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- src/
+    - App.js
+    - App.css
+    - reset.css
+    - components/
+        - ShopLogo
+        - PromoBanner
+        -  

@@ -1,45 +1,56 @@
 [
     {
         "id": 1,
-        "name": "Snake Ring",
+        "name": "Large Soda Fired Bowl",
         "inventory": 2,
-        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
-
-    },
+        "description": "Beautifully multi-colored Bowl"
+    },  
     {
         "id": 2,
-        "name": "Snake Ring",
-        "inventory": 2,
-        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
-
+        "name": "Four-Piece Dinner plate set",
+        "inventory": 3,
+        "description": "Comes in a set of four, hand-fired, large dinner plates"
     },
     {
         "id": 3,
-        "name": "Snake Ring",
+        "name": "15 piece Tea Set of porcelain cups",
         "inventory": 2,
-        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
-
+        "description": "All different sizes and made of Blue and white ceramic"
     },
     {
         "id": 4,
-        "name": "Snake Ring",
-        "inventory": 2,
-        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
-
+        "name": "Armenian Ceramic Pomegrante",
+        "inventory": 3,
+        "description": "Beautifully hand-painted design of fruits and vegatables"
     },
     {
         "id": 5,
-        "name": "Snake Ring",
-        "inventory": 2,
-        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
-
+        "name": "Ceramic Coffee Mug",
+        "inventory": 5,
+        "description": "12 oz size coffe mug. "
     },
     {
         "id": 6,
-        "name": "Snake Ring",
+        "name": " Tumblers Cup Mug",
         "inventory": 2,
-        "description": "Beautiful baby serpent bracelet, set with an opal, in copper."
-
+        "description": "A four piece set of ceramic tumblers mug, speckled in white, gray and tan clay"
+    },
+    {
+        "id": 7,
+        "name": "ceramic handmade mini Vase",
+        "inventory": 1,
+        "description": "Single vase, speckled with touches of blue, white and tan clay"
+    },
+    {
+        "id": 8,
+        "name": "White Ceramic Egg Vase Large ",
+        "inventory": 4,
+        "description": "Large 128 ounce, white ceramic egg vase"
+    },
+    {
+        "id": 9,
+        "name": "Assorted Sea inspired shaped clay stamps",
+        "inventory": 2,
+        "description": "Collection of clay stamps for pottery, includes the following stamps; starfish, seahorse, a shell, beach ball, a bucket, and shovel"
     }
-
 ]

@@ -1,8 +1,12 @@
 const express = require('express');
-const ctrl = require('./controller');
 const app = express();
+app.use(express.json());
 const port = 3992;
 
-app.use(express.json());
+const ctrl = require('./controller');
+
+
+
+
 
 app.listen(port, () => console.log(`Hey Hey, Your Port, Works Today: ${port}`));
